@@ -1,0 +1,31 @@
+﻿<Window x:Class="courseWork.WindowWorker"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:courseWork"
+        mc:Ignorable="d"
+        Title="WindowWorker" Height="269.11" Width="509.727" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Storage.jpg" Opacity="0.5"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="107*"/>
+            <ColumnDefinition Width="289*"/>
+        </Grid.ColumnDefinitions>
+
+        <DataGrid Name="datagrid" Grid.Column="1" Opacity="0.9">
+
+        </DataGrid>
+        <StackPanel>
+
+            <Button Name="btnAddItem" Click="BtnAddItem_Click" Content="Add" Width="100"/>
+            <Button Name="btnEdit" Click="BtnEdit_Click" Content="Edit" Width="100" Margin="10"/>
+            <Button Name="btnRemove" Click="BtnRemove_Click" Content="Remove" Width="100"/>
+
+            <Button Content="Back to login" Click="Button_Click" Width="100" Margin="0 90 0 0"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

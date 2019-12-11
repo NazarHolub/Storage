@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ArrayOfWorker xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Worker>
+    <Login>1</Login>
+    <Password>1</Password>
+    <Profession>Worker</Profession>
+  </Worker>
+  <Worker>
+    <Login>2</Login>
+    <Password>2</Password>
+    <Profession>Manager</Profession>
+  </Worker>
+</ArrayOfWorker>
